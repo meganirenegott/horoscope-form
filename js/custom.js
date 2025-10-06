@@ -144,5 +144,6 @@ function onFormSubmit(event) {
 	// makes the form disappear after being submitted
 	formContainer.innerHTML = "";
 }
+
 // Event Listener
 form.addEventListener("submit", onFormSubmit);
