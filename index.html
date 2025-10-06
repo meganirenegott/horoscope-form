@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="form-container">
+    <form id="zodiac-form">
+        <h1>Zodiac Sign Form</h1>
+        <!-- Choose your Zodiac drop down menu   -->
+        <label for="zodiac">Choose your zodiac sign:</label>
+        <br>
+        <select id="zodiac" name="zodiac" required aria-required="true" aria-label="Select Your Sign">
+            <option value="">Select Your Sign</option>
+            <option value="Aries">Aries</option>
+            <option value="Taurus">Taurus</option>
+            <option value="Gemini">Gemini</option>
+            <option value="Cancer">Cancer</option>
+            <option value="Leo">Leo</option>
+            <option value="Virgo">Virgo</option>
+            <option value="Libra">Libra</option>
+            <option value="Scorpio,">Scorpio,</option>
+            <option value="Sagitarius">Sagitarius</option>
+            <option value="Capricorn">Capricorn</option>
+            <option value="Aquarius">Aquarius</option>
+            <option value="Pisces">Pisces</option>
+        </select>
+        <button class="submit">Submit</button>
+    </form>
+</div>
+<div class="userMessage">
+    <img id="sign-image" alt="">
+    <p id="zodiac-sign"></p>
+    <p id="date-range"></p>
+    <p id="horoscope"></p>
+</div>
+<script src="js/custom.js"></script>
+</body>
+</html>
